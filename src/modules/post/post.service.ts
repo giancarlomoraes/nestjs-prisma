@@ -24,6 +24,7 @@ export class PostService {
                 where: {
                     id
                 },
+                //to show the author data
                 include: {
                     author: true
                 },
