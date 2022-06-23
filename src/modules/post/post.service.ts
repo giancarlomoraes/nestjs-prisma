@@ -27,6 +27,7 @@ export class PostService {
                 include: {
                     author: true
                 },
+                //and that's it
             })
 
             return post;
