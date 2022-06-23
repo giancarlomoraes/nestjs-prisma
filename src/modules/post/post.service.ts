@@ -29,6 +29,7 @@ export class PostService {
                     author: true
                 },
                 //and that's it
+                //almost
             })
 
             return post;
